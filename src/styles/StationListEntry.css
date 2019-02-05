@@ -5,6 +5,9 @@
 .station-name {
   text-decoration: underline;
 }
+.station:first-child {
+  margin-top: 75px !important;
+}
 .station:last-child {
   margin-bottom: 150px !important;
 }

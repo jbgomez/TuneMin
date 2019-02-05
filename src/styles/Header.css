@@ -1,0 +1,14 @@
+.header {
+  color: #00e0cc;
+  background-color: #251e3f;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  height: 60px;
+}
+.header h2 {
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 0;
+  line-height: 1.75;
+}
