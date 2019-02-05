@@ -8,7 +8,7 @@ const StationList = ({ stations, onStationClick }) => (
         <StationListEntry
           key={station.id}
           onClick={() => onStationClick(station)}
-          {...station}
+          station={station}
         />
       ))
     }
