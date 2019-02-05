@@ -2,7 +2,7 @@ import React from 'react';
 import StationListEntry from './StationListEntry';
 
 const StationList = ({ stations, onStationClick }) => (
-  <div className="station-list">
+  <div className="container station-list">
     {
       stations.map(station => (
         <StationListEntry
