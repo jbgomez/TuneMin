@@ -1,4 +1,5 @@
 import React from 'react';
+import './../styles/StationListEntry.css';
 
 const StationListEntry = ({ station, onClick }) => (
   <div className="station card my-3 p-3" onClick={onClick}>

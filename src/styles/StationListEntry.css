@@ -1,0 +1,10 @@
+.station:hover {
+  background-color: rgba(37, 30, 63, .1);
+  cursor: pointer;
+}
+.station-name {
+  text-decoration: underline;
+}
+.station:last-child {
+  margin-bottom: 150px !important;
+}
