@@ -1,7 +1,8 @@
 import React from 'react';
+import StationListContainer from './../containers/StationListContainer';
 
 const App = () => (
-  <div></div>
+  <StationListContainer />
 );
 
 export default App;
