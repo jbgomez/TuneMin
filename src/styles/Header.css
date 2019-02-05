@@ -1,14 +1,13 @@
 .header {
   color: #00e0cc;
   background-color: #251e3f;
-  font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
-  height: 60px;
+  height: 75px;
 }
-.header h2 {
-  vertical-align: middle;
-  display: inline-block;
-  margin-bottom: 0;
-  line-height: 1.75;
+.header svg {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -45%);
 }
