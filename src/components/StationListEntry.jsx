@@ -1,7 +1,7 @@
 import React from 'react';
 
-const StationListEntry = ({ station, handleStationClick }) => (
-  <div onClick={handleStationClick}>
+const StationListEntry = ({ station, onClick }) => (
+  <div onClick={onClick}>
     <div>
       <img src={station.imgUrl} />
     </div>
